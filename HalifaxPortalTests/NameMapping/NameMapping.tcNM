@@ -3,6 +3,139 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{BB3094C5-F4DE-4AF5-B120-BE34C5641411}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6C8F0F6B-152B-4108-9A66-D7EB69F461DB}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{9546E742-E10D-44FD-8360-51792E698BFD}">
+								<Image FileName="1037257494" Left="0" Top="0" Right="1280" Bottom="680" />
+								<TypeInfo Item0="{283A53CA-7F5A-42D6-90F6-F0D3E09B93BA}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLmsOnlineLogin" Key="{6F2E16FE-A42F-474E-8900-16B6A96B253E}">
+								<Image FileName="-1092395501" Left="48" Top="71" Right="1440" Bottom="876" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://plc.halifax.ca/hfxprod/pub/lms/Login.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{974FB356-2593-4ADC-9A29-A449E530E33E}">
+										<Image FileName="-1092395501" Left="1026" Top="331" Right="1296" Bottom="667" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainContainer&apos;]/div[2]/div/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputTxtemail" Key="{9E24A0E8-7013-4DA8-9C40-46C4257A91DC}">
+										<Image FileName="-1092395501" Left="1026" Top="419" Right="1281" Bottom="462" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_cphPaneBand_txtEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;ctl00$cphPaneBand$txtEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;ctl00_cphPaneBand_txtEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/div/div/div/span[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxTxtpassword" Key="{188AA17F-B2FB-460C-B924-32B5A5A719BB}">
+										<Image FileName="-1703702939" Left="1026" Top="541" Right="1281" Bottom="584" />
+										<TypeInfo Item0="{D42BE96E-8A92-469F-96D9-CA356255D786}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_cphPaneBand_txtPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;ctl00$cphPaneBand$txtPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;ctl00_cphPaneBand_txtPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/div/div/div[2]/span[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6C8F0F6B-152B-4108-9A66-D7EB69F461DB}">
+			<Child Name="BrowserWindow" Owner="{9546E742-E10D-44FD-8360-51792E698BFD}" />
+			<Child Name="pageLmsOnlineLogin" Owner="{6F2E16FE-A42F-474E-8900-16B6A96B253E}">
+				<Child Name="formAspnetform" Owner="{974FB356-2593-4ADC-9A29-A449E530E33E}">
+					<Child Name="emailinputTxtemail" Owner="{9E24A0E8-7013-4DA8-9C40-46C4257A91DC}" />
+					<Child Name="passwordboxTxtpassword" Owner="{188AA17F-B2FB-460C-B924-32B5A5A719BB}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
